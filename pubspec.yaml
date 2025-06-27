@@ -1,0 +1,19 @@
+name: callbook_baskom
+description: Aplikasi Callbook BASKOM RDC offline dengan login admin
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.0
+  path_provider: ^2.1.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/anggota.db
+    - assets/logo.png
